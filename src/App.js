@@ -13,8 +13,8 @@ class App extends Component {
 
   shuffleComposers = id => {
     // Filter this.state.friends for friends with an id not equal to the id being removed
-    const composers = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
+    const composers = this.state.composers.filter(composer => composer.id !== id);
+    // Set this.state.composers equal to the new friends array
     this.setState({ composers });
 
 
